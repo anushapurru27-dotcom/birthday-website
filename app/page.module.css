@@ -1,4 +1,31 @@
 
+/* Make the birthday website mobile-friendly */
+@media screen and (max-width: 600px) {
+  .slide {
+    min-height: 100svh;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px 14px 35px;
+    overflow: visible;
+  }
+
+  .slide h1 {
+    font-size: clamp(24px, 7vw, 34px);
+    line-height: 1.2;
+  }
+
+  .slide p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .slide button {
+    max-width: 100%;
+    min-height: 44px;
+    white-space: normal;
+  }
+}
+
 /* =========================================
    MAIN CONTAINER
 ========================================= */
