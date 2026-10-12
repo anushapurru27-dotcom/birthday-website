@@ -1,0 +1,249 @@
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background 1s ease;
+
+  font-family: Arial, sans-serif;
+}
+
+
+/* =========================================
+   SLIDE CONTENT
+========================================= */
+
+.slideContent {
+  width: 90%;
+  max-width: 800px;
+
+  text-align: center;
+
+  padding: 30px;
+
+  animation: slideIn 1s ease;
+}
+
+
+/* =========================================
+   SLIDE 1 - PURPLE
+========================================= */
+
+.slide1 {
+  background: linear-gradient(
+    135deg,
+    #6a11cb,
+    #2575fc
+  );
+
+  color: white;
+}
+
+
+/* Gift */
+
+.gift {
+  font-size: 120px;
+
+  animation: giftBounce 2s infinite ease-in-out;
+}
+
+
+/* Title */
+
+.title {
+  font-size: 48px;
+
+  margin: 20px 0;
+
+  animation: titlePop 1s ease;
+}
+
+
+/* Message */
+
+.message {
+  font-size: 21px;
+
+  line-height: 1.7;
+
+  margin: 20px auto;
+
+  max-width: 650px;
+}
+
+
+/* Balloons */
+
+.balloons {
+  position: absolute;
+
+  top: 30px;
+  left: 0;
+
+  width: 100%;
+
+  display: flex;
+
+  justify-content: space-around;
+
+  pointer-events: none;
+}
+
+.balloons span {
+  font-size: 55px;
+
+  animation: balloonFloat 4s infinite ease-in-out;
+}
+
+.balloons span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.balloons span:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.balloons span:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.balloons span:nth-child(5) {
+  animation-delay: 2s;
+}
+
+
+/* =========================================
+   SLIDE 2 - PINK
+========================================= */
+
+.slide2 {
+  background: linear-gradient(
+    135deg,
+    #ff758c,
+    #ff7eb3
+  );
+
+  color: white;
+}
+
+
+/* Cake */
+
+.cake {
+  font-size: 120px;
+
+  animation: cakeBounce 1.5s infinite ease-in-out;
+}
+
+
+/* Stars */
+
+.stars {
+  font-size: 40px;
+
+  margin: 25px;
+
+  animation: sparkle 1.5s infinite alternate;
+}
+
+
+/* =========================================
+   SLIDE 3 - BLUE
+========================================= */
+
+.slide3 {
+  background: linear-gradient(
+    135deg,
+    #00c6ff,
+    #0072ff
+  );
+
+  color: white;
+}
+
+
+/* Hearts */
+
+.hearts {
+  font-size: 45px;
+
+  letter-spacing: 12px;
+
+  animation: heartsFloat 3s infinite ease-in-out;
+}
+
+
+/* Big Heart */
+
+.bigHeart {
+  font-size: 100px;
+
+  animation: heartBeat 1.2s infinite;
+}
+
+
+/* =========================================
+   SLIDE 4 - GOLD
+========================================= */
+
+.slide4 {
+  background: linear-gradient(
+    135deg,
+    #f7971e,
+    #ffd200
+  );
+
+  color: #5a3500;
+}
+
+
+/* Final Emoji */
+
+.finalEmoji {
+  font-size: 120px;
+
+  animation: celebration 1s infinite alternate;
+}
+
+
+/* Final Title */
+
+.finalTitle {
+  font-size: 60px;
+
+  margin: 20px 0;
+
+  animation: finalTitleAnimation 2s infinite alternate;
+}
+
+
+/* Final Message */
+
+.finalMessage {
+  font-size: 22px;
+
+  line-height: 1.7;
+}
+
+
+/* Fireworks */
+
+.fireworks {
+  font-size: 45px;
+
+  margin: 25px;
+
+  animation: fireworks 1s infinite a
+}
+
