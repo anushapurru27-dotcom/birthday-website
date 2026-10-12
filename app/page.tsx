@@ -11,7 +11,7 @@ export default function Page() {
 
 
   // Birthday background music
-  const audioRef = useRef(null);
+ const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
