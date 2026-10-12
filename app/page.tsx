@@ -15,7 +15,7 @@ export default function Page() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
-    const audio = new Audio("/songs/birthday-song.mp3");
+    const audio = new Audio("/songs/worlds_best_bgm.mp3");
 
     audio.loop = true;
     audio.volume = 0.5;

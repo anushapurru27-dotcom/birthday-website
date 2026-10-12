@@ -274,3 +274,24 @@
   animation: fireworks 1s infinite a
 }
 
+
+/* Enable vertical scrolling on the website */
+:global(html) {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:global(body) {
+  margin: 0;
+  min-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Allow the page content to extend vertically */
+.container {
+  min-height: 100vh;
+  height: auto;
+  overflow: visible;
+  box-sizing: border-box;
+}
